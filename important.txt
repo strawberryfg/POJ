@@ -1,0 +1,25 @@
+¶ÁÊý
+var n: integer;
+...
+while not seekeof do
+begin
+  read(n);
+  ...
+end;
+
+¶Á×Ö·û
+var c: char;
+...
+while not eof do
+begin
+  read(c); 
+  ...
+end;
+
+¶Á×Ö·û´®
+var line: string;
+...
+while not eof do
+begin
+  readln(line);
+  ...

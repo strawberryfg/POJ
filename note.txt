@@ -1,0 +1,3 @@
+1743
+   注意fmax-fmin>=x (fmax-fmin>x-1)
+   fillchar(查了2个钟头) 否则tr数组没清零

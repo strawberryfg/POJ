@@ -1,0 +1,40 @@
+1704
+stair case-nim
+
+2311
+注意 不能出现1*m或是n*1的情况，
+因为不满足 In each turn the player can cut either horizontally or vertically
+
+2960
+s-nim
+注意fillchar f数组的位置
+
+g数组应该在子程序中开
+
+2975 
+nim
+
+3480
+anti-sg
+
+3537
+如果第i个位置画X，则i-1,i-2,i+1,i+2都不能放X
+
+
+1678
+I love this game
+dp[i]=a[i]-max(dp[j])
+
+如果i是游戏者1 （先手）
+dp[i]=a[i]+max(max(dp[k])-a[j]) max(dp[k])表示当后手取j时 先手取k i-j-k
+所有a[i]+max(dp[k])-a[j]中取max
+如果i是游戏者2 （后手）
+dp[i]=a[i]-max(dp[j])
+这是站在游戏者2的立场上
+在游戏者2的立场上，他取了x个 游戏者1取了y个，则 res=x-y
+而游戏者1的立场上，实际情况时-x+y  所以如果res 最大 等于是对游戏者1不利（因为减的数变大，差值就变小）
+http://blog.sina.com.cn/s/blog_51cea4040100h6kc.html
+
+
+2425:
+裸的SG

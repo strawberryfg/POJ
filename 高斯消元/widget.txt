@@ -1,0 +1,9 @@
+注意点1
+
+inc(g[i][v]); g[i][v]:=g[i][v] mod base; 
+g[i][v]要mod base
+否则可能g[i][v]=7 mod base后应该是0
+
+注意点2
+
+注意无解、多解的情况判断有点小复杂
